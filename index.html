@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <!-- title here -->
+    <title>Doctor appointment</title>
+    <!-- add JQuery CDN here -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Jockey One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Ramaraja:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="doctorappointment1">
+      <div class="navigation-section">
+        <div class="menubuttonsection">
+          <div class="menu-button-sectionbg"></div>
+          <div class="getstartedbtn">
+            <div class="getstartedbg"></div>
+            <b class="lblgetstarted">Get Started</b>
+          </div>
+          <div class="homebtn">Home</div>
+          <div class="aboutbtn">About</div>
+          <div class="home">Home</div>
+          <div class="servicesbtn" id="servicesbtnText">Services</div>
+        </div>
+        <div class="menu-section"></div>
+        <div class="logosection">
+          <div class="logo-text">HEALTHCARE</div>
+          <div class="logo-sectionbg"></div>
+        </div>
+      </div>
+      <div class="banner-section">
+        <div class="bannersectionbg"></div>
+        <div class="form-area-section">
+          <div class="form">
+            <div class="formtitle">
+              <b class="lblbannertitle"
+                ><p class="find-and-search-your">
+                  <span>Find And Search Your</span>
+                </p>
+                <p class="suitable-doctors">
+                  <span>Suitable Doctor’s</span>
+                </p></b
+              >
+              <div class="lbldescription">
+                <p class="find-and-search-your">
+                  Join us and take care of yourself and your family with health
+                </p>
+                <p class="find-and-search-your">
+                  services that will make you feel confident and safe in your
+                </p>
+                <p class="daily-life">daily life.</p>
+              </div>
+              <div class="form1">
+                <div class="form2">
+                  <!--input service-->
+                  <input 
+                    id = "doctor_type"
+                    class="input-doctor"
+                    type="text"
+                    placeholder="Find Your Doctor"
+                    required
+                  />
+                  <!--input area-->
+                  <input
+                    id="doctor_area"
+                    class="input-area"
+                    type="text"
+                    placeholder="Enter Area"
+                    required
+                  />
+                  <!--submit button-->
+                  <button class="searchbtn">
+                    <img
+                      id="search_btn"
+                      class="searchbtnimage-icon"
+                      alt=""
+                      src="public/searchbtnimage@2x.png"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="form-image">
+          <div class="menu-section"></div>
+          <img class="formimage-icon" alt="" src="public/formimage@2x.png" />
+        </div>
+      </div>
+      <div class="servicesection" id ="searchSection">
+        <div class="menu-section"></div>
+        <div class="searchsection">
+          <div class="search-section">
+            <div class="description">
+              <p class="find-and-search-your">
+                Find your doctor with minimum effort.
+              </p>
+              <p class="daily-life">We’ve kept everything organized for you</p>
+            </div>
+            <b class="titleforsearch">Find best doctor’s</b
+            ><img
+              class="searchimagebg-icon"
+              alt=""
+              src="public/searchimagebg.svg"
+            /><img
+              class="searchimage-icon"
+              alt=""
+              src="public/searchimage@2x.png"
+            />
+          </div>
+        </div>
+        <div class="consultsection">
+          <div class="search-section1">
+            <div class="description1">
+              Do consultations and take the service based on your appointment.
+              Get back to good health
+            </div>
+            <b class="title-for-consultantations">Happy Consultations</b
+            ><img
+              class="searchimagebg-icon1"
+              alt=""
+              src="public/searchimagebg1.svg"
+            /><img
+              class="consultimage-icon"
+              alt=""
+              src="public/consultimage@2x.png"
+            />
+          </div>
+        </div>
+        <div class="appointmentsection">
+          <div class="search-section2">
+            <div class="description2">
+              Ask for an appointment of the doctor quickly with almost a single
+              click. We take care of the rest.
+            </div>
+            <b class="titleforappointment">Get Appointment</b
+            ><img
+              class="searchimagebg-icon2"
+              alt=""
+              src="public/searchimagebg2.svg"
+            /><img
+              class="appointmentimage-icon"
+              alt=""
+              src="public/appointmentimage@2x.png"
+            />
+          </div>
+        </div>
+        <b class="lbltitlesection3">3 Easy Steps and Get Your Solution</b>
+      </div>
+      <div class="descriptionsection">
+        <div class="descriptionsectionbg"></div>
+        <div class="textcontentarea">
+          <div class="textcontentarea"></div>
+          <div class="star-section1">
+            <img class="star-section1-child" alt="" src="public/star-1.svg" />
+            <div class="tiltle">
+              Search your specialist & online consultant anywhere
+            </div>
+          </div>
+          <div class="star-section2">
+            <div class="title">Consultation our top specialists</div>
+            <img class="star-section2-child" alt="" src="public/star-2.svg" />
+          </div>
+          <div class="star-section-3">
+            <div class="title1">Doctors are available 24/7</div>
+            <img class="star-section-3-child" alt="" src="public/star-3.svg" />
+          </div>
+          <div class="txtdescription">
+            With our top doctors, we are able to provide best medical services
+            above average. We have highly experienced doctors, so don’t worry.
+            They are also very talented in their fields.
+          </div>
+          <b class="text-area-title"
+            >Best quality service with our experience doctors</b
+          >
+        </div>
+        <img
+          class="doctor-image-bg"
+          alt=""
+          src="public/doctor-image-bg@2x.png"
+        />
+      </div>
+    </div>
+
+    <script>
+      var servicesbtnText = document.getElementById("servicesbtnText");
+      if (servicesbtnText) {
+        servicesbtnText.addEventListener("click", function () {
+          window.open("sevices.html");
+        });
+      }
+      </script>
+  </body>
+
+  <script>
+    $(document).ready(function(){
+      $("#search_btn").click(function(){
+
+        var doctor_type = $("#doctor_type").val();
+        var doctor_area = $("#doctor_area").val();
+
+        $.post("webservices1.php", {search: doctor_type, area: doctor_area}, function(response){
+           $("#searchSection").html(response);
+        });
+
+      });
+    });    
+</script>
+
+</html>

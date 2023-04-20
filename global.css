@@ -1,0 +1,31 @@
+:root {
+  /* fonts */
+  --font-fraunces: Fraunces;
+  --font-roboto: Roboto;
+  --font-ramaraja: Ramaraja;
+  --font-raleway: Raleway;
+  --font-jockey-one: "Jockey One";
+
+  /* font sizes */
+  --font-size-base: 1rem;
+  --font-size-lg: 1.25rem;
+  --font-size-xl: 1.5rem;
+  --font-size-2xl: 2rem;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-gray-100: rgba(0, 0, 0, 0.85);
+  --color-gray-200: rgba(0, 0, 0, 0.57);
+  --color-deepskyblue: rgba(99, 178, 236, 0.24);
+  --color-dodgerblue: #0590f4;
+  --color-whitesmoke: #f5f5f5;
+
+  /* Paddings */
+  --padding-md: 1.19rem;
+
+  /* border radiuses */
+  --br-sm: 10px;
+  --br-md: 20px;
+  --br-lg: 30px;
+}

@@ -1,0 +1,587 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.getstartedbg,
+.menu-button-sectionbg {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.menu-button-sectionbg {
+  width: 49.45rem;
+  height: 5.06rem;
+}
+.getstartedbg {
+  border-radius: var(--br-sm);
+  background-color: var(--color-dodgerblue);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 12.12rem;
+  height: 3.28rem;
+}
+.lblgetstarted {
+  position: absolute;
+  top: 0.82rem;
+  right: 2.2rem;
+  display: inline-block;
+  width: 6.66rem;
+  height: 1.79rem;
+}
+.getstartedbtn {
+  position: absolute;
+  top: 0.97rem;
+  right: 3.61rem;
+  width: 12.12rem;
+  height: 3.28rem;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+}
+.homebtn {
+  top: 1.94rem;
+  right: 32.72rem;
+  display: inline-block;
+  width: 5.19rem;
+  height: 1.44rem;
+}
+.aboutbtn,
+.home,
+.homebtn {
+  position: absolute;
+}
+.aboutbtn {
+  top: 1.81rem;
+  right: 24.85rem;
+  display: inline-block;
+  width: 6.06rem;
+  height: 1.69rem;
+}
+.home {
+  top: -14.06rem;
+  left: 17.91rem;
+  display: none;
+  width: 6.19rem;
+  height: 1.75rem;
+}
+.servicesbtn {
+  position: absolute;
+  top: 1.81rem;
+  right: 17.47rem;
+  display: inline-block;
+  width: 6.81rem;
+  height: 1.69rem;
+  cursor: pointer;
+}
+.menubuttonsection {
+  position: absolute;
+  top: 0;
+  right: 0.22rem;
+  width: 49.45rem;
+  height: 5.06rem;
+}
+.menu-section {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.logo-text {
+  position: absolute;
+  width: 76.12%;
+  top: 0.97rem;
+  left: 13.93%;
+  display: inline-block;
+}
+.logo-sectionbg,
+.logosection {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 5.06rem;
+}
+.logosection {
+  width: 17.25%;
+  right: 77.87%;
+  left: 4.87%;
+  font-size: var(--font-size-2xl);
+  color: #357fb4;
+  font-family: var(--font-jockey-one);
+}
+.navigation-section {
+  position: absolute;
+  top: 0.69rem;
+  right: 6.25rem;
+  width: 77.56rem;
+  height: 5.06rem;
+  font-size: var(--font-size-xl);
+}
+.bannersectionbg {
+  position: absolute;
+  height: 94.34%;
+  width: 99.76%;
+  top: 0;
+  right: 0.24%;
+  bottom: 5.66%;
+  left: 0;
+}
+.find-and-search-your {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.suitable-doctors {
+  margin: 0;
+  color: rgba(34, 143, 222, 0.96);
+}
+.lblbannertitle {
+  align-self: stretch;
+  position: relative;
+}
+.daily-life {
+  margin: 0;
+}
+.lbldescription {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-ramaraja);
+  color: var(--color-gray-100);
+}
+.input-area,
+.input-doctor {
+  border: 1px solid var(--color-black);
+  background-color: var(--color-whitesmoke);
+  position: relative;
+  border-radius: var(--br-lg);
+  box-sizing: border-box;
+  height: 2.25rem;
+  flex-shrink: 0;
+}
+.input-doctor {
+  width: 11.6rem;
+}
+.input-area {
+  width: 11.97rem;
+}
+.searchbtnimage-icon {
+  position: relative;
+  width: 2.06rem;
+  height: 2.19rem;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.searchbtn {
+  cursor: pointer;
+  border: 0;
+  padding: 0 0.63rem;
+  background-color: var(--color-dodgerblue);
+  border-radius: var(--br-sm);
+  height: 2.31rem;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+}
+.form1,
+.form2,
+.formtitle,
+.searchbtn {
+  display: flex;
+  justify-content: flex-start;
+}
+.form2 {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 3.06rem;
+}
+.form1,
+.formtitle {
+  flex-direction: column;
+}
+.form1 {
+  align-self: stretch;
+  background-color: var(--color-white);
+  height: 4.31rem;
+  flex-shrink: 0;
+  padding: 1rem 0.88rem;
+  box-sizing: border-box;
+  align-items: flex-start;
+}
+.formtitle {
+  position: absolute;
+  width: 89.17%;
+  top: 7.31rem;
+  right: 5.57%;
+  left: 5.25%;
+  align-items: center;
+  gap: 0.88rem;
+}
+.form {
+  position: absolute;
+  height: 99%;
+  width: 104.66%;
+  top: 0.4%;
+  right: -2.33%;
+  bottom: 0.6%;
+  left: -2.33%;
+}
+.form-area-section {
+  position: absolute;
+  height: 94.72%;
+  width: 50.73%;
+  top: 5.28%;
+  right: 49.27%;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.formimage-icon {
+  top: calc(50% - 188.5px);
+  left: calc(50% - 285.92px);
+  width: 35.38rem;
+  height: 24rem;
+  object-fit: cover;
+}
+.banner-section,
+.form-image,
+.formimage-icon {
+  position: absolute;
+}
+.form-image {
+  height: 93.4%;
+  width: 49.27%;
+  top: 0;
+  right: 0;
+  bottom: 6.6%;
+  left: 50.73%;
+}
+.banner-section {
+  height: 34.6%;
+  width: 85.9%;
+  top: 6.01%;
+  right: 7.15%;
+  bottom: 59.4%;
+  left: 6.94%;
+  font-size: 2.25rem;
+  font-family: var(--font-raleway);
+}
+.description {
+  position: absolute;
+  width: 100%;
+  top: 8.88rem;
+  left: 0;
+  display: inline-block;
+}
+.titleforsearch {
+  position: absolute;
+  width: 52.53%;
+  top: 6.56rem;
+  left: 26.11%;
+  font-size: var(--font-size-lg);
+  display: flex;
+  color: var(--color-black);
+  align-items: center;
+  justify-content: center;
+}
+.searchimagebg-icon {
+  position: absolute;
+  top: 0;
+  left: 6.91rem;
+  width: 6.06rem;
+  height: 5.88rem;
+}
+.searchimage-icon {
+  position: absolute;
+  width: 17.74%;
+  top: 0.99rem;
+  right: 41.7%;
+  left: 40.56%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 3.65rem;
+  object-fit: cover;
+}
+.search-section {
+  position: relative;
+  width: 19.75rem;
+  height: 11.26rem;
+  flex-shrink: 0;
+}
+.searchsection {
+  position: absolute;
+  width: 32.26%;
+  top: 11.75rem;
+  right: 67.74%;
+  left: 0;
+  border-radius: var(--br-md);
+  background-color: var(--color-deepskyblue);
+  height: 14.94rem;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-md) 0 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.description1 {
+  position: absolute;
+  top: 8.44rem;
+  left: 0;
+  display: inline-block;
+  width: 20.44rem;
+  height: 2.5rem;
+}
+.title-for-consultantations {
+  position: absolute;
+  width: 65.44%;
+  top: 58.29%;
+  left: 21.25%;
+  font-size: var(--font-size-lg);
+  display: inline-block;
+  color: var(--color-black);
+}
+.searchimagebg-icon1 {
+  position: absolute;
+  top: 0;
+  left: 8rem;
+  width: 5.94rem;
+  height: 5.56rem;
+}
+.consultimage-icon {
+  position: absolute;
+  top: calc(50% - 75.83px);
+  left: calc(50% - 10.11px);
+  width: 2.74rem;
+  height: 3.94rem;
+  object-fit: cover;
+}
+.search-section1 {
+  position: relative;
+  width: 20.44rem;
+  height: 10.94rem;
+  flex-shrink: 0;
+}
+.consultsection {
+  position: absolute;
+  width: 32.5%;
+  top: 11.75rem;
+  right: 0;
+  left: 67.5%;
+  border-radius: var(--br-md);
+  background-color: var(--color-deepskyblue);
+  height: 14.94rem;
+  display: flex;
+  flex-direction: row;
+  padding: 0.75rem var(--padding-md) 0 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.description2,
+.titleforappointment {
+  position: absolute;
+  display: inline-block;
+}
+.description2 {
+  width: 100%;
+  top: 8.62rem;
+  left: 0;
+  height: 3.38rem;
+}
+.titleforappointment {
+  width: 48.92%;
+  top: 6.24rem;
+  left: 28.23%;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+}
+.appointmentimage-icon,
+.searchimagebg-icon2 {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+}
+.searchimagebg-icon2 {
+  width: 25.66%;
+  top: 0;
+  right: 33.6%;
+  left: 40.74%;
+  height: 5.81rem;
+}
+.appointmentimage-icon {
+  width: 14.81%;
+  top: 0.9rem;
+  right: 39.15%;
+  left: 46.03%;
+  height: 3.71rem;
+  object-fit: cover;
+}
+.search-section2 {
+  position: absolute;
+  width: 90.96%;
+  top: 2.19rem;
+  right: 4.47%;
+  left: 4.57%;
+  height: 12rem;
+}
+.appointmentsection {
+  position: absolute;
+  width: 32.26%;
+  top: 11.75rem;
+  right: 33.87%;
+  left: 33.87%;
+  border-radius: var(--br-md);
+  background-color: var(--color-deepskyblue);
+  height: 14.94rem;
+}
+.lbltitlesection3 {
+  position: absolute;
+  width: 67.15%;
+  top: 17.26%;
+  left: 17.07%;
+  font-size: var(--font-size-2xl);
+  display: inline-block;
+  color: var(--color-black);
+}
+.servicesection {
+  position: absolute;
+  height: 29.11%;
+  width: 86.11%;
+  top: 38.77%;
+  right: 6.94%;
+  bottom: 32.11%;
+  left: 6.94%;
+  text-align: center;
+  color: var(--color-gray-100);
+}
+.descriptionsectionbg {
+  position: absolute;
+  height: 100%;
+  width: 98.96%;
+  top: 0;
+  right: 0.64%;
+  bottom: 0;
+  left: 0.4%;
+}
+.star-section1-child {
+  position: absolute;
+  top: 0;
+  right: 27.73rem;
+  width: 1.52rem;
+  height: 1.79rem;
+}
+.tiltle {
+  position: absolute;
+  top: 0.17rem;
+  right: 0;
+  display: inline-block;
+  width: 26.61rem;
+}
+.star-section1 {
+  position: absolute;
+  top: 15.75rem;
+  right: 3.77rem;
+  width: 29.29rem;
+  height: 1.79rem;
+  font-size: 0.94rem;
+}
+.title {
+  position: absolute;
+  top: 0.09rem;
+  right: 0;
+  display: inline-block;
+  width: 16.09rem;
+}
+.star-section2-child {
+  position: absolute;
+  top: 0;
+  right: 17rem;
+  width: 1.52rem;
+  height: 1.79rem;
+}
+.star-section2 {
+  position: absolute;
+  top: 18.55rem;
+  right: 14.43rem;
+  width: 18.56rem;
+  height: 1.79rem;
+}
+.title1 {
+  position: absolute;
+  top: 0.09rem;
+  right: 0;
+  display: inline-block;
+  width: 13.34rem;
+}
+.star-section-3-child {
+  position: absolute;
+  top: 0;
+  right: 14.24rem;
+  width: 1.52rem;
+  height: 1.79rem;
+}
+.star-section-3 {
+  position: absolute;
+  top: 21.36rem;
+  right: 17.11rem;
+  width: 15.8rem;
+  height: 1.79rem;
+}
+.text-area-title,
+.txtdescription {
+  position: absolute;
+  display: inline-block;
+}
+.txtdescription {
+  top: 8.34rem;
+  right: 4.06rem;
+  font-size: var(--font-size-lg);
+  color: rgba(0, 0, 0, 0.44);
+  width: 28.85rem;
+}
+.text-area-title {
+  top: 1.79rem;
+  right: 5.65rem;
+  font-size: var(--font-size-2xl);
+  color: var(--color-black);
+  width: 27.33rem;
+}
+.doctor-image-bg,
+.textcontentarea {
+  position: absolute;
+  top: 0;
+  height: 24.94rem;
+}
+.textcontentarea {
+  right: 0;
+  width: 37.41rem;
+}
+.doctor-image-bg {
+  left: 0;
+  width: 36.22rem;
+  object-fit: cover;
+}
+.descriptionsection {
+  position: absolute;
+  height: 26.04%;
+  width: 86.81%;
+  top: 70.37%;
+  right: 6.6%;
+  bottom: 3.59%;
+  left: 6.6%;
+  color: var(--color-gray-200);
+  font-family: var(--font-fraunces);
+}
+.doctorappointment1 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 95.75rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}
